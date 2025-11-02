@@ -27,7 +27,7 @@ const Home = () => {
         <p className="text-lg font-semibold text-white max-w-2xl mb-6">
           Keep track of your thoughts and tasks effortlessly. Minimal, fast, beautiful.
         </p>
-        <button className="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold text-xl hover:bg-purple-500 hover:text-white hover:scale-110 transition">
+        <button className="bg-white text-purple-700 px-6 py-3 rounded-lg font-semibold text-xl hover:bg-purple-500 hover:text-white hover:border-1 hover:scale-110 transition">
           Get Started
         </button>
       </div>

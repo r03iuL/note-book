@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <div className="navbar bg-transparent text-white">
+      <div className="navbar bg-gradient-to-b from-black/30 to-transparent text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-purple-700"
+              className="menu menu-lg dropdown-content bg-base-100 rounded-box z-100 mt-3 w-52 p-2 shadow text-purple-700"
             >
              <li>
                 <a >Home</a>
@@ -37,7 +37,7 @@ const NavBar = () => {
                 <a>Pricing</a>
               </li>
               <li>
-                <a>About Us </a>
+                <a>About Us</a>
               </li>
               <li>
                 <a>Contact</a>
