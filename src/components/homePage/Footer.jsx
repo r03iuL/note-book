@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-purple-300 to-purple-600 text-white font-manrope rounded-t-[2rem] px-6 py-12">
+    <footer
+      id="contact"
+      className="bg-gradient-to-br from-purple-300 to-purple-600 text-white font-manrope rounded-t-[2rem] px-6 py-12"
+    >
       <div className="container mx-auto">
         {/* "Get In Touch" Section */}
         <div className="text-center md:text-left mb-12">
@@ -86,7 +89,7 @@ const Footer = () => {
 
           {/* Newsletter Column */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Join Our Newsletter</h3>
+            <h3 className="text-3xl font-semibold mb-4">Join Our Newsletter</h3>
             <p className="mb-4 text-sm">
               Get the latest news, updates, and tips straight to your inbox.
             </p>
@@ -112,18 +115,17 @@ const Footer = () => {
           <div className="flex items-center">
             <span className="mr-4">Follow Us</span>
             <div className="flex space-x-4">
-              {/* Replace with actual icons */}
               <a href="#" className="hover:opacity-75">
-                <img src="/src/assets/ig.png" alt="" />
+                <img className="w-10 " src="/src/assets/x.png" alt="" />
               </a>
               <a href="#" className="hover:opacity-75">
-                <img src="/src/assets/fb.png" alt="" />
+                <img className="w-10" src="/src/assets/ig.png" alt="" />
               </a>
               <a href="#" className="hover:opacity-75">
-                <img src="/src/assets/x.png" alt="" />
+                <img className="w-10" src="/src/assets/fb.png" alt="" />
               </a>
               <a href="#" className="hover:opacity-75">
-                <img src="/src/assets/in.png" alt="" />
+                <img className="w-10" src="/src/assets/in.png" alt="" />
               </a>
             </div>
           </div>

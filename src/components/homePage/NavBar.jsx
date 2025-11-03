@@ -29,19 +29,23 @@ const NavBar = () => {
               className="menu menu-lg dropdown-content bg-base-100 rounded-box z-100 mt-3 w-52 p-2 shadow text-purple-700"
             >
              <li>
-                <Link to="/" >Home</Link>
+                <a href="/#home" >Home</a>
               </li>
               <li>
-                <a>Dashboard</a>
+                <Link to="/dashboard">Dashboard</Link>
               </li>
               <li>
-                <Link to="/#pricing">Pricing</Link>
+                <a href="/#pricing">Pricing</a>
               </li>
               <li>
-                <a>About Us</a>
+                <a href="/#about-us">About Us</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="/#faq">FAQ</a>
+              </li>
+
+              <li>
+                <a href="/#contact">Contact</a>
               </li>
               <li>
                 <Link to="/login">Log In</Link>
@@ -56,20 +60,24 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold text-lg gap-2">
             <li>
-                <Link to="/" className="bg-transparent rounded-full hover:bg-purple-400 border-2">Home</Link>
+                <a href="/#home" className="bg-transparent rounded-full hover:bg-purple-400 border-2">Home</a>
               </li>
               <li>
-                <a className="bg-transparent rounded-full hover:bg-purple-400">Dashboard</a>
+                <Link to="/dashboard" className="bg-transparent rounded-full hover:bg-purple-400">Dashboard</Link>
               </li>
               <li>
-                <Link to="/#pricing" className="bg-transparent rounded-full hover:bg-purple-400">Pricing</Link>
+                <a href="/#pricing" className="bg-transparent rounded-full hover:bg-purple-400">Pricing</a>
               </li>
               <li>
-                <a className="bg-transparent rounded-full hover:bg-purple-400">About Us </a>
+                <a href="/#about-us" className="bg-transparent rounded-full hover:bg-purple-400">About Us </a>
               </li>
 
               <li>
-                <a className="bg-transparent rounded-full hover:bg-purple-400">Contact</a>
+                <a href="/#faq" className="bg-transparent rounded-full hover:bg-purple-400">FAQ</a>
+              </li>
+
+              <li>
+                <a href="/#contact" className="bg-transparent rounded-full hover:bg-purple-400">Contact</a>
               </li>
           </ul>
         </div>

@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Hero = () => {
   return (
-    <div className=" relative min-h-screen bg-gradient-to-t from-purple-50/0 via-purple-400 to-purple-600 text-white overflow-hidden font-manrope">
+    <div id="home" className=" -mt-20 relative min-h-screen bg-gradient-to-t from-purple-50/0 via-purple-400 to-purple-600 text-white overflow-hidden font-manrope">
       {/* Grid Background */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"
@@ -17,7 +17,7 @@ const Hero = () => {
       />
 
       {/* Content of homepage */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-24 mt-0 md:mt-20">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-24 mt-0 md:mt-50">
         <h1 className="text-4xl md:text-5xl sm:text-6xl font-bold leading-tight mb-4">
           Build notes that last <br />
           Stay organized,
