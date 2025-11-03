@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Hero = () => {
   return (
-    <div className=" relative min-h-screen bg-gradient-to-t from-purple-50 via-purple-400 to-purple-600 text-white overflow-hidden font-manrope">
+    <div className=" relative min-h-screen bg-gradient-to-t from-purple-50/0 via-purple-400 to-purple-600 text-white overflow-hidden font-manrope">
       {/* Grid Background */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"

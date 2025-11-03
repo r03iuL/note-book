@@ -35,7 +35,7 @@ const NavBar = () => {
                 <a>Dashboard</a>
               </li>
               <li>
-                <a>Pricing</a>
+                <Link to="/#pricing">Pricing</Link>
               </li>
               <li>
                 <a>About Us</a>
@@ -62,7 +62,7 @@ const NavBar = () => {
                 <a className="bg-transparent rounded-full hover:bg-purple-400">Dashboard</a>
               </li>
               <li>
-                <a className="bg-transparent rounded-full hover:bg-purple-400">Pricing</a>
+                <Link to="/#pricing" className="bg-transparent rounded-full hover:bg-purple-400">Pricing</Link>
               </li>
               <li>
                 <a className="bg-transparent rounded-full hover:bg-purple-400">About Us </a>
