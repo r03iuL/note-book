@@ -50,11 +50,11 @@ const Pricing = () => {
           <p className="text-gray-600 mt-10">Select the plan that best fits your needs,from what we have carefully desingned considering your best interest.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 py-10 ">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-3 py-10 ">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`rounded-lg p-12 shadow-lg ${plan.highlight ? 'bg-purple-600/60 text-white transform scale-105' : 'bg-gray-200/80 text-gray-800'} flex flex-col justify-between h-140 w-110 `}
+              className={`rounded-lg p-12 shadow-lg ${plan.highlight ? 'bg-purple-600/60 text-white transform scale-105' : 'bg-gray-200/80 text-gray-800'} flex flex-col justify-between h-140  `}
             >
               <h3 className="text-4xl font-bold mb-4">{plan.name}</h3>
               <p className="text-4xl font-bold mb-6">{plan.price}<span className="text-lg font-medium">/mo</span></p>

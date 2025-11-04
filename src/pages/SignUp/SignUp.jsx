@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-t from-purple-50 via-purple-400 to-purple-600 text-white font-manrope flex items-center justify-center px-4">
+    <div className="min-h-screen py-30 bg-gradient-to-t from-purple-50 via-purple-400 to-purple-600 text-white font-manrope flex items-center justify-center px-4 z-0">
       {/* Grid Background */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"
@@ -17,25 +17,26 @@ const SignUp = () => {
       />
 
       <div className="relative z-10 w-full max-w-md p-8 space-y-6 bg-white/90 backdrop-blur-sm rounded-lg shadow-xl text-gray-800">
-        <h2 className="text-3xl font-bold text-center text-purple-700">Create Your Account</h2>
+        <h2 className="text-3xl font-bold text-center text-purple-700">Create an Account</h2>
         <form className="space-y-4">
           <div>
             <label className="label">
-              <span className="label-text text-gray-700">Email</span>
+              <span className="label-text text-gray-700">Name</span>
             </label>
             <input
-              type="email"
-              placeholder="you@example.com"
+              type="text"
+              placeholder="Your Name"
               className="input input-bordered w-full focus:ring-purple-500 focus:border-purple-500"
             />
           </div>
           <div>
             <label className="label">
-              <span className="label-text text-gray-700">User Name</span>
+
+              <span className="label-text text-gray-700">Email</span>
             </label>
             <input
-              type="text"
-              placeholder="Your Name"
+              type="email"
+              placeholder="you@example.com"
               className="input input-bordered w-full focus:ring-purple-500 focus:border-purple-500"
             />
           </div>
@@ -56,6 +57,16 @@ const SignUp = () => {
             <input
               type="password"
               placeholder="********"
+              className="input input-bordered w-full focus:ring-purple-500 focus:border-purple-500"
+            />
+          </div>
+          <div>
+            <label className="label">
+              <span className="label-text text-gray-700">Image URL</span>
+            </label>
+            <input
+              type="text"
+              placeholder="https://example.com/your-image.jpg"
               className="input input-bordered w-full focus:ring-purple-500 focus:border-purple-500"
             />
           </div>

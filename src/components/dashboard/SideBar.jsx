@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function SideBar() {
   return (
-    <div className="w-55 flex flex-col justify-between bg-gradient-to-b from-purple-400 to-purple-600 text-white p-4 text-center font-manrope">
+    <div className="w-55 flex flex-col justify-between bg-gradient-to-b from-purple-400 to-purple-600/80 text-white p-4 text-center font-manrope">
       <div>
         <div className="flex items-center justify-center h-20 border-b border-white/10">
           <Link to="/" className="text-4xl font-lobster text-white">NoteBook</Link>

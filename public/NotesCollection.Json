@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Grocery List",
+    "content": "Milk, Eggs, Bread, Coffee",
+    "userId": "uid_12345",
+    "folderId": "folder_001",
+    "color": "yellow",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-01T10:00:00Z",
+    "updatedAt": "2025-11-01T10:00:00Z"
+  },
+  {
+    "title": "React Learning Plan",
+    "content": "Study hooks, routing, and context this week.",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "blue",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-01T11:00:00Z",
+    "updatedAt": "2025-11-01T11:30:00Z"
+  },
+  {
+    "title": "Book Quotes",
+    "content": "“Be yourself; everyone else is already taken.” - Oscar Wilde",
+    "userId": "uid_12345",
+    "folderId": "folder_003",
+    "color": "green",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-30T08:45:00Z",
+    "updatedAt": "2025-10-30T08:45:00Z"
+  },
+  {
+    "title": "Monday Meeting Notes",
+    "content": "Discussed team goals and new features.",
+    "userId": "uid_12345",
+    "folderId": "folder_001",
+    "color": "purple",
+    "archived": true,
+    "trashed": false,
+    "createdAt": "2025-11-03T09:00:00Z",
+    "updatedAt": "2025-11-03T09:15:00Z"
+  },
+  {
+    "title": "Ideas for Blog",
+    "content": "Write about JavaScript async/await, MERN, Firebase.",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "pink",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-28T15:00:00Z",
+    "updatedAt": "2025-10-28T15:10:00Z"
+  },
+  {
+    "title": "Workout Plan",
+    "content": "Mon: Chest, Tue: Back, Wed: Cardio",
+    "userId": "uid_12345",
+    "folderId": "folder_004",
+    "color": "red",
+    "archived": false,
+    "trashed": true,
+    "createdAt": "2025-10-27T07:30:00Z",
+    "updatedAt": "2025-10-27T07:35:00Z"
+  },
+  {
+    "title": "Weekly Budget",
+    "content": "Food: $50, Travel: $20, Tools: $10",
+    "userId": "uid_12345",
+    "folderId": "folder_005",
+    "color": "orange",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-25T09:00:00Z",
+    "updatedAt": "2025-10-25T09:00:00Z"
+  },
+  {
+    "title": "Firebase Setup",
+    "content": "Enable Auth, Firestore, Firebase Admin SDK",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "blue",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-01T12:00:00Z",
+    "updatedAt": "2025-11-01T12:20:00Z"
+  },
+  {
+    "title": "Gift List",
+    "content": "Mom: Book, Dad: Mug, Brother: Headphones",
+    "userId": "uid_12345",
+    "folderId": "folder_003",
+    "color": "yellow",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-02T18:00:00Z",
+    "updatedAt": "2025-11-02T18:00:00Z"
+  },
+  {
+    "title": "DaisyUI Features",
+    "content": "Button, Modal, Tabs, Card, Navbar",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "cyan",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-03T10:00:00Z",
+    "updatedAt": "2025-11-03T10:05:00Z"
+  },
+  {
+    "title": "Reading List",
+    "content": "Clean Code, Atomic Habits, You Don't Know JS",
+    "userId": "uid_12345",
+    "folderId": "folder_003",
+    "color": "green",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-24T14:00:00Z",
+    "updatedAt": "2025-10-24T14:30:00Z"
+  },
+  {
+    "title": "Notes App Plan",
+    "content": "MERN + Firebase Auth, Folders, Notes, Archive",
+    "userId": "uid_12345",
+    "folderId": "folder_001",
+    "color": "purple",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-29T09:00:00Z",
+    "updatedAt": "2025-10-29T09:00:00Z"
+  },
+  {
+    "title": "UI Feedback",
+    "content": "Navbar not responsive on mobile, fix hover bug",
+    "userId": "uid_12345",
+    "folderId": "folder_006",
+    "color": "gray",
+    "archived": false,
+    "trashed": true,
+    "createdAt": "2025-11-01T13:00:00Z",
+    "updatedAt": "2025-11-01T13:10:00Z"
+  },
+  {
+    "title": "Portfolio Checklist",
+    "content": "1. Project Cards 2. Contact Form 3. GitHub links",
+    "userId": "uid_12345",
+    "folderId": "folder_005",
+    "color": "blue",
+    "archived": true,
+    "trashed": false,
+    "createdAt": "2025-10-31T16:00:00Z",
+    "updatedAt": "2025-10-31T16:20:00Z"
+  },
+  {
+    "title": "Tailwind 4.1 Notes",
+    "content": "No config file required. Fonts via CSS vars.",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "teal",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-01T10:45:00Z",
+    "updatedAt": "2025-11-01T10:50:00Z"
+  },
+  {
+    "title": "Call with Client",
+    "content": "Discuss delivery, budget, and feedback",
+    "userId": "uid_12345",
+    "folderId": "folder_001",
+    "color": "orange",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-02T10:00:00Z",
+    "updatedAt": "2025-11-02T10:00:00Z"
+  },
+  {
+    "title": "Backup Plan",
+    "content": "Export notes to JSON weekly",
+    "userId": "uid_12345",
+    "folderId": "folder_007",
+    "color": "red",
+    "archived": true,
+    "trashed": false,
+    "createdAt": "2025-11-01T08:30:00Z",
+    "updatedAt": "2025-11-01T08:30:00Z"
+  },
+  {
+    "title": "Dashboard Design",
+    "content": "Sidebar + folders carousel + notes grid",
+    "userId": "uid_12345",
+    "folderId": "folder_002",
+    "color": "indigo",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-11-03T11:00:00Z",
+    "updatedAt": "2025-11-03T11:00:00Z"
+  },
+  {
+    "title": "Meeting Summary",
+    "content": "Team agreed on roadmap and features",
+    "userId": "uid_12345",
+    "folderId": "folder_004",
+    "color": "green",
+    "archived": false,
+    "trashed": false,
+    "createdAt": "2025-10-28T17:00:00Z",
+    "updatedAt": "2025-10-28T17:15:00Z"
+  },
+  {
+    "title": "Random Thoughts",
+    "content": "Dark mode makes me happy 🌙",
+    "userId": "uid_12345",
+    "folderId": "folder_008",
+    "color": "black",
+    "archived": false,
+    "trashed": true,
+    "createdAt": "2025-11-04T05:00:00Z",
+    "updatedAt": "2025-11-04T05:10:00Z"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "folder_001",
+    "name": "General",
+    "color": "purple",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-20T10:00:00Z",
+    "updatedAt": "2025-10-20T10:00:00Z"
+  },
+  {
+    "_id": "folder_002",
+    "name": "Dev Notes",
+    "color": "blue",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-21T11:00:00Z",
+    "updatedAt": "2025-10-21T11:00:00Z"
+  },
+  {
+    "_id": "folder_003",
+    "name": "Personal",
+    "color": "green",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-22T09:00:00Z",
+    "updatedAt": "2025-10-22T09:00:00Z"
+  },
+  {
+    "_id": "folder_004",
+    "name": "Health & Fitness",
+    "color": "red",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-23T08:30:00Z",
+    "updatedAt": "2025-10-23T08:30:00Z"
+  },
+  {
+    "_id": "folder_005",
+    "name": "Finances",
+    "color": "orange",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-24T10:00:00Z",
+    "updatedAt": "2025-10-24T10:00:00Z"
+  },
+  {
+    "_id": "folder_006",
+    "name": "UI Feedback",
+    "color": "gray",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-25T14:00:00Z",
+    "updatedAt": "2025-10-25T14:00:00Z"
+  },
+  {
+    "_id": "folder_007",
+    "name": "Backup",
+    "color": "red",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-26T10:00:00Z",
+    "updatedAt": "2025-10-26T10:00:00Z"
+  },
+  {
+    "_id": "folder_008",
+    "name": "Misc",
+    "color": "black",
+    "userId": "uid_12345",
+    "createdAt": "2025-10-27T15:00:00Z",
+    "updatedAt": "2025-10-27T15:00:00Z"
+  }
+]
