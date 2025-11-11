@@ -11,7 +11,7 @@ const FolderCarousel = () => {
   const [folders, setFolders] = useState([]);
 
   useEffect(() => {
-    fetch("/FolderCollection.json")
+    fetch("http://localhost:5000/folders")
       .then((res) => res.json())
       .then((data) => setFolders(data))
       .catch((err) => console.error("Failed to load folders", err));

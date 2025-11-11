@@ -33,7 +33,7 @@ const FolderCard = ({ folder }) => {
     >
       <div className="card-body p-8 font-mono relative">
         <div className="flex items-center gap-3">
-          <h2 className="card-title text-white text-x ">{folder.name}</h2>
+          <h2 className="card-title text-white text-xl ">{folder.name}</h2>
         </div>
         <div className="text-md font-semibold text-white/80 mt-2 absolute bottom-5 right-10">
           {formatDate(folder.createdAt)}

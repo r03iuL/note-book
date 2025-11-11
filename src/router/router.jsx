@@ -5,6 +5,8 @@ import SignUp from "../pages/signup/SignUp";
 import MainLayout from "../layouts/MainLayout";
 import DashboardLayout from "../layouts/DashboardLayout";
 import Archive from "../components/dashboard/notes/Archive";
+import AllNotes from "../components/dashboard/notes/AllNotes";
+import Trash from "../components/dashboard/notes/Trash";
 
 export const router = createBrowserRouter([
   {
@@ -27,10 +29,18 @@ export const router = createBrowserRouter([
     path: "/dashboard",
     element: <DashboardLayout />,
     children: [
+      {
+        index: true,
+        element:<AllNotes />
+      },
        {
         path: "archive",
         element: <Archive/>,
-      }
+      },
+       {
+        path: "trash",
+        element: <Trash />,
+      },
     ],
   },
 ]);
